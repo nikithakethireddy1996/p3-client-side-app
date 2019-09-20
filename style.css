@@ -28,7 +28,7 @@ a:link:hover{
     margin: 1rem;
     padding: 2rem;
     color: rgb(0, 0, 0);
-    background-color: rgba(100, 100, 100, 0.85);
+    background-color: rgba(212, 250, 77, 0.85);
     border-radius: 2em;
   }
   
@@ -103,7 +103,7 @@ a:link:hover{
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
-    border: 1px solid #646464;
+    border: 1px solid #11cae2;
   }
   
   #contact textarea {
@@ -127,7 +127,7 @@ a:link:hover{
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
-    border: 1px solid #646464;
+    border: 1px solid #11cae2;
   }
   
   #contact button[type="submit"]:active {
@@ -137,7 +137,7 @@ a:link:hover{
   #contact input:focus,
   #contact textarea:focus {
     outline: 0;
-    border: 1px solid #646464
+    border: 1px solid #11cae2
   }
   
   #contact h3 {
@@ -160,7 +160,7 @@ a:link:hover{
   
   
   #app {
-    background: rgb(100, 100, 100, .85);
+    background: rgba(8, 248, 60, 0.85);
     margin: 1rem;
     padding: 2rem;
     border-radius: 2em;
@@ -182,7 +182,7 @@ a:link:hover{
   #app button[type="submit"] {
     width: 25%;
     border: 1px solid  rgb(230, 142, 11);
-    background: rgb(100, 100, 100, .85);
+    background: rgba(8, 248, 60, 0.85);
     margin: 0 0 5px;
     padding: 10px;
     font-size: 15px;
@@ -193,14 +193,14 @@ a:link:hover{
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
-    border: 1px solid #646464;
+    border: 1px solid #11cae2;
   }
   
   #app input[type="text"]:hover {
     -webkit-transition: border-color 0.3s ease-in-out;
     -moz-transition: border-color 0.3s ease-in-out;
     transition: border-color 0.3s ease-in-out;
-    border: 1px solid #646464;
+    border: 1px solid #11cae2;
   }
   
   input{
