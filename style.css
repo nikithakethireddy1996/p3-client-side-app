@@ -37,7 +37,7 @@ a:link:hover{
   }
   
   .navbar a,button,input {
-    color: rgb(142, 226, 31) !important;
+    color: rgb(9, 14, 2) !important;
   }
   
   .bgimg {
@@ -51,7 +51,7 @@ a:link:hover{
   }
   
   
-  /* I used a template from the internet to sorta base my contact page off of. https://codepen.io/colorlib/pen/KVoZyv */
+  
   .container {
     margin: 1rem;
     padding: 2rem;
@@ -72,11 +72,11 @@ a:link:hover{
   }
   
   #contact {
-    background: rgba(218, 74, 129, 0.85);
+    background: rgba(9, 147, 228, 0.85);
     margin: 1rem;
     padding: 2rem;
     border-radius: 2em;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    box-shadow: 0 0 20px 0 rgba(217, 238, 25, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
   
   
@@ -88,7 +88,7 @@ a:link:hover{
   #contact textarea {
     width: 100%;
     border: 1px solid rgb(11, 33, 230);
-    background:  rgba(218, 74, 129, 0.85);
+    background:  rgba(218, 192, 74, 0.85);
     color: rgb(11, 33, 230);
     margin: 0 0 5px;
     padding: 10px;
