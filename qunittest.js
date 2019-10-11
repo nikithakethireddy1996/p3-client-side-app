@@ -1,10 +1,10 @@
 QUnit.module('Main', {})
 
 QUnit.test( "Test VolumeCalc", function( assert ) {
-    assert.equal(VolumeCalc(1,2,4), 8, "(LengthValue) 1 * (WidthValue) 2 * (HeightValue) 4 = 8");
-    assert.equal(VolumeCalc(2,5,1), 10, "(LengthValue) 2 * (WidthValue) 5 * (HeightValue) 1 = 10");
-    assert.equal(VolumeCalc(4,2,3), 24, "(LengthValue) 4 * (WidthValue) 2 * (HeightValue) 3 = 24");
-    assert.equal(VolumeCalc(5,4,1), 20, "(LengthValue) 5 * (WidthValue) 4 * (HeightValue) 1 = 20");
+    assert.equal(multiply(1,-2,4), -8, "(LengthValue) 1 * (WidthValue) 2 * (HeightValue) 4 = -8(Negative Number)");
+    assert.equal(multiply(2,5,1), 10, "(LengthValue) 2 * (WidthValue) 5 * (HeightValue) 1 = 10(Positive Number)");
+    assert.equal(multiply(4,2,-3), -24, "(LengthValue) 4 * (WidthValue) 2 * (HeightValue) 3 = -24(Negative Number");
+    assert.equal(multiply(5,4,1), 20, "(LengthValue) 5 * (WidthValue) 4 * (HeightValue) 1 = 20(Positive Number)");
     
 });
 
@@ -30,3 +30,4 @@ window.addEventListener('load', () => {
         QUnit.start()
       })
   })
+

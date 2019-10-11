@@ -160,7 +160,7 @@ a:link:hover{
   
   
   #app {
-    background: rgba(8, 248, 60, 0.85);
+    background: rgba(176, 250, 57, 0.85);
     margin: 1rem;
     padding: 2rem;
     border-radius: 2em;
@@ -173,7 +173,7 @@ a:link:hover{
   #app textarea {
     width: 100%;
     border: 1px solid rgb(230, 142, 11);
-    background: rgb(100, 100, 100, .85);
+    background: rgba(245, 162, 203, 0.85);
     margin: 0 0 5px;
     padding: 10px;
     border-radius: 2em;
@@ -209,7 +209,7 @@ a:link:hover{
     border-radius: 2em;
     width: 100%;
     border: 1px solid rgb(230, 142, 11);
-    background: rgb(100, 100, 100, .85);
+    background: rgba(230, 179, 217, 0.85);
   }
   
   #app h3 {
@@ -238,4 +238,10 @@ a:link:hover{
       -ms-transition: all 0.3s ease-in-out;
       -o-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
+  }
+
+  p{
+    background: rgba(250, 112, 181, 0.85);
+    border: 1px solid rgb(230, 142, 11);
+
   }
