@@ -38,3 +38,11 @@ document.addEventListener('click', event => {
 })
 
 
+function VolumeCalc(LengthValue, WidthValue, HeightValue){
+    return LengthValue*WidthValue*HeightValue
+}
+
+
+
+
+
