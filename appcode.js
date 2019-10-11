@@ -22,6 +22,10 @@ const updateWithMultiply = async (event) => {
     document.querySelector('#result').innerHTML = ans
   }
 }
+ function testupdateWithMultiply(i, j, k)
+ {
+return i*j*k;
+ }
 
 
 
