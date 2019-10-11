@@ -1,10 +1,10 @@
 QUnit.module('Main', {})
 
 QUnit.test( "Test VolumeCalc", function( assert ) {
-    assert.equal(VolumeCalc(1,2,4), 8, "LengthValue 1 * WidthValue 2 * HeightValue 4 gives the value of volume of prism as 8");
-    assert.equal(VolumeCalc(2,5,1), 10, "LengthValue 2 * WidthValue 5 * HeightValue 1 gives the value of volume of prism as 10");
-    assert.equal(VolumeCalc(5,4,1), 20, "LengthValue 4 * WidthValue 2 * HeightValue 3 gives the value of volume of prism as 24");
-    assert.equal(VolumeCalc(5,4,1), 20, "LengthValue 5 * WidthValue 4 * HeightValue 1 gives the value of volume of prism as 20");
+    assert.equal(VolumeCalc(1,2,4), 8, "(LengthValue) 1 * (WidthValue) 2 * (HeightValue) 4 = 8");
+    assert.equal(VolumeCalc(2,5,1), 10, "(LengthValue) 2 * (WidthValue) 5 * (HeightValue) 1 = 10");
+    assert.equal(VolumeCalc(5,4,1), 20, "(LengthValue) 4 * (WidthValue) 2 * (HeightValue) 3 = 24");
+    assert.equal(VolumeCalc(5,4,1), 20, "(LengthValue) 5 * (WidthValue) 4 * (HeightValue) 1 = 20");
 });
 
 window.addEventListener('load', () => {
