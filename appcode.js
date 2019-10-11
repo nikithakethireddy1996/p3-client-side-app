@@ -20,6 +20,9 @@ const updateWithMultiply = async (event) => {
     const k = parseInt(document.querySelector('#HeightValue').value)
     const ans = ` Volume of Rectangle Prism is ${multiply(i, j, k)}.`
     document.querySelector('#result').innerHTML = ans
+    localStorage.setItem('Value1', i)
+    localStorage.setItem('Value2', j)
+    localStorage.setItem('Value3', k)
   }
 }
  function testupdateWithMultiply(i, j, k)
