@@ -7,7 +7,6 @@ QUnit.test( "Test VolumeCalc", function( assert ) {
     assert.equal(VolumeCalc(5,4,1), 20, "(LengthValue) 5 * (WidthValue) 4 * (HeightValue) 1 = 20");
     assert.equal(VolumeCalc(9,2,1), 18, "(LengthValue) 9 * (WidthValue) 2 * (HeightValue) 1 = 18");
     assert.equal(VolumeCalc(5,4,4), 80, "(LengthValue) 5 * (WidthValue) 4 * (HeightValue) 1 = 80");
-    assert.equal(VolumeCalc(6,1,5), 30, "(LengthValue) 6 * (WidthValue) 1 * (HeightValue) 5 = 20");
 });
 
 window.addEventListener('load', () => {
