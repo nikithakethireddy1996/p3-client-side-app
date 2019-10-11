@@ -26,7 +26,7 @@
                         <a class="nav-link" href="contact.html">Contact Details</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="app.html">Area Calculation</a>
+                        <a class="nav-link " href="app.html">Volume Calculation</a>
                     </li>
                 </ul>
                 <form class="form-inline mt-2 mt-md-0">
@@ -42,18 +42,40 @@
         <main class="container-fluid">
             <div class="container">
                 <form id="contact" action="" method="post">
-                    <h3>Computing the area of the triangle</h3>
-                    <fieldset>
-                        <input placeholder="Enter the length of the base " type="text" tabindex="1" required autofocus>
-                    </fieldset>
-                    <fieldset>
-                        <input placeholder="Enter the length of the height" type="tel" tabindex="1" required autofocus>
-                    </fieldset>
-                    <fieldset>
-                            <button classname="submit" type="submit" id="contact-submit"
-                                data-submit="...Sending">Please Submit</button>
-                        </fieldset>
+                    <h3>Computing the volume of Rectangular Prism</h3>
+                    
+                         <fieldset class="mt-4">
+                            <label for="">Enter length value(1 to 100):</label>
+                            <input id="LengthValue" type="number" min="1" max="100" value="6">
+                            <span id="LengthValue" class="text-danger"></span>
+                          </fieldset>
+                          <fieldset class="mt-4">
+                            <label for="">Enter width value(1 to 100):</label>
+                            <input id="WidthValue" type="number" min="1" max="100" value="6">
+                            <span id="WidthValue" class="text-danger"></span>
+                          </fieldset>
+                          <fieldset class="mt-4">
+                            <label for="">Enter height value(1 to 100):</label>
+                            <input id="HeightValue" type="number" min="1" max="100" value="6">
+                            <span id="HeightValue" class="text-danger"></span>
+                          </fieldset>
                 </form>
             </div>
+            <div class="col-md-5 mb-4">
+                <hr>
+                <button id="multiplyButton" class="btn btn-primary">Multiply</button>
+                <hr>
+                <p id="result"></p>
+        
+              </div>
         </main>
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+              Nikitha Kethireddy
+              <span class="text-muted">Right-click / Inspect / Console</span>
+              &#9670;
+              &#9670;
+            </div>
+          </footer>
+          <script src="appcode.js"></script>
     </body>
