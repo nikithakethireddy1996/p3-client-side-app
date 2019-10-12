@@ -1,7 +1,7 @@
 # p3-client-side-app:
  ## Reference Sites:
- [Link1](https://qunitjs.com)
- [Link2](https://www.w3schools.com/js/js_ajax_intro.asp)
+ 1. [Link1](https://qunitjs.com)
+ 1. [Link2](https://www.w3schools.com/js/js_ajax_intro.asp)
 
  ### People from whom I recieved help:
  1. Sushma Yedugani
