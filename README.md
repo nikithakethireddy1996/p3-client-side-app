@@ -4,8 +4,8 @@
  [Link2](https://www.w3schools.com/js/js_ajax_intro.asp)
 
  ### People from whom I recieved help:
- Sushma Yedugani
- Chase Smith
- MahaLakshmi Kongari
+ 1. Sushma Yedugani
+ 1. Chase Smith
+ 1. MahaLakshmi Kongari
 
  
