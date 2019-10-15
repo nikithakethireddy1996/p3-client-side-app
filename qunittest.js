@@ -5,7 +5,7 @@ QUnit.test( "Test VolumeCalc", function( assert ) {
     assert.equal(testupdateWithMultiply(2,5,1), 10, "resulted value is 10");
     assert.equal(testupdateWithMultiply(4,2,-3), -24, "resulted value is -24");
     assert.equal(testupdateWithMultiply(5,4,1), 20, "resulted value is 20");
-    assert.equal(testupdateWithMultiply(5,2,1), 10, "resulted value is 20");
+    assert.equal(testupdateWithMultiply(5,2,1), 10, "resulted value is 10");
     
 });
 
